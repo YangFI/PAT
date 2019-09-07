@@ -9,7 +9,7 @@ int main()
     char num,*s[]={"ling","yi","er","san","si","wu","liu","qi","ba","jiu"};
     while((num=getchar())!='\n')
     sum+=num-'0';
-        printf("¸ÃÊýÎª%d\n",sum);
+        printf("the number is %d\n",sum);
     int sumy=sum;
     while(sumy>0)
 {
